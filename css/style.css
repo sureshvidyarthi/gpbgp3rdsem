@@ -1,0 +1,71 @@
+/* h3 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+} */
+
+/* color, background */
+/* h1 {
+    color: orangered;
+} */
+
+/* body {
+    background-color: yellow;
+} */
+/* body {
+    background-image: url("photo.jpg");
+    background-repeat: no-repeat;
+} */
+
+/* border */
+/* h1 {
+    color: purple;
+    text-align: center;
+    border-width: 5px;
+    border-style: outset;
+    border-color: blue;
+    border: 10px solid red;
+} */
+
+/* margin and padding */
+/* h1 {
+    border: 4px solid red;
+    text-align: center;
+    margin: 100px;
+    padding: 40px;
+    border-radius: 40px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+} */
+
+/* shadow, text decoration */
+/* h1 {
+
+    text-shadow: 4px 2px 3px red;
+    text-decoration: overline line-through underline;
+} */
+
+/* hover effect */
+/* a {
+    color: purple;
+    text-decoration: none;
+    border: 2px solid purple;
+    padding: 6px;
+    border-radius: 12px;
+    margin-left: 30%;
+}
+
+a:hover {
+    background-color: purple;
+    color: white;
+} */
+
+div {
+    border: 10px solid red;
+    margin: 50px;
+}
+
+span {
+
+    border: 10px solid blue;
+}

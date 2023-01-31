@@ -59,7 +59,7 @@ a:hover {
     background-color: purple;
     color: white;
 } */
-
+/* 
 div {
     border: 10px solid red;
     margin: 50px;
@@ -68,4 +68,65 @@ div {
 span {
 
     border: 10px solid blue;
+} */
+
+/* overflow */
+/* div {
+    height: 200px;
+    border: 2px solid purple;
+    overflow: scroll;
+} */
+
+/* h1 {
+    color: red;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: red;
+} */
+/* class and id */
+/* .sectionA {
+    color: blue;
+}
+
+.sectionB {
+    color: red;
+}
+
+#id1 {
+    color: yellow;
+}
+
+#id2 {
+    color: purple;
+} */
+
+/* table */
+/* table,
+th,
+td {
+    border: 2px solid purple;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+th,
+td {
+    padding: 5px;
+} */
+
+/* form */
+form {
+    border: 2px solid purple;
 }

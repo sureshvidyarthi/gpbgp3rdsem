@@ -127,6 +127,34 @@ td {
 } */
 
 /* form */
-form {
+/* form {
     border: 2px solid purple;
+} */
+
+/* text transform, align */
+/* h1 {
+    text-transform: capitalize;
+    text-align: center;
 }
+
+p {
+    text-align: justify;
+    text-indent: 200px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    line-height: 30px;
+} */
+
+/* dispaly */
+/* ul {
+    list-style-type: none;
+}
+
+li {
+    border: 2px solid blue;
+    display: inline;
+}
+
+a {
+    display: block;
+} */

@@ -1,0 +1,17 @@
+h1 {
+    color: white;
+    background-color: purple;
+    text-align: center;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+form {
+    border: 2px solid purple;
+    padding-left: 300px;
+    width: 500px;
+}
+
+span {
+    color: red;
+}

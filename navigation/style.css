@@ -1,0 +1,14 @@
+ul {
+    list-style-type: none;
+    background-color: purple;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    display: inline;
+    margin: 20px;
+}

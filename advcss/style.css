@@ -1,0 +1,28 @@
+/* div {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 100px; */
+/* transform: translate(400px, 400px); */
+/* transform: rotate(60deg); */
+/* transform: scale(2); */
+/* transform: skewY(60deg); */
+/* transform: matrix(scaleX(), skewY(),skewX(), scaleY(), translateX(), translateY()); */
+/* transform: matrix(2, 50, 2, 0.5, 400, 300); */
+/* } */
+
+/* transition */
+div {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 300px;
+    transition: background-color 3s, transform 4s, height 2s, width 2s;
+}
+
+div:hover {
+    background-color: red;
+    transform: rotate(2000deg);
+    height: 400px;
+    width: 400px;
+}

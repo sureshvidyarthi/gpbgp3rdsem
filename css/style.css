@@ -158,3 +158,13 @@ li {
 a {
     display: block;
 } */
+
+/* float, opacity */
+img {
+    float: right;
+    opacity: 0.3;
+}
+
+/* h1 {
+    float: right;
+} */

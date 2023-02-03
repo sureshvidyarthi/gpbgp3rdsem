@@ -12,7 +12,7 @@
 /* } */
 
 /* transition */
-div {
+/* div {
     height: 200px;
     width: 200px;
     background-color: black;
@@ -25,4 +25,122 @@ div:hover {
     transform: rotate(2000deg);
     height: 400px;
     width: 400px;
+} */
+
+/* animation */
+/* @keyframes colorchange {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: purple;
+    }
+} */
+
+/* @keyframes multicolor {
+    0% {
+        background-color: red;
+    }
+
+    20% {
+        background-color: black;
+    }
+
+    40% {
+        background-color: blue;
+    }
+
+    60% {
+        background-color: purple;
+    }
+
+    80% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: brown;
+    }
+} */
+
+/* @keyframes moveable {
+    0% {
+        left: 0px;
+        top: 0;
+        background-color: aqua;
+    }
+
+    25% {
+        left: 400px;
+        top: 0px;
+        background-color: blue;
+    }
+
+    50% {
+        left: 400px;
+        top: 400px;
+        background-color: brown;
+    }
+
+    75% {
+        left: 0px;
+        top: 400px;
+        background-color: chartreuse;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        background-color: purple;
+    }
+
+} */
+
+@keyframes linearmotion {
+    0% {
+        left: 0px;
+        top: 0px;
+        background-color: purple;
+
+    }
+
+    50% {
+        left: 100%;
+        top: 0px;
+        background-color: burlywood;
+
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        background-color: black;
+
+    }
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    background-color: yellow;
+    transform: rotate(360deg);
+    /* animation-name: colorchange;
+    animation-duration: 5s; */
+    /* animation-name: multicolor;
+    animation-duration: 4s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite; */
+
+    /* animation-name: moveable;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+
+    animation-name: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
 }

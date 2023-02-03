@@ -1,4 +1,7 @@
 ul {
+
+    position: sticky;
+    top: 0;
     list-style-type: none;
     background-color: purple;
 }
@@ -11,4 +14,18 @@ a {
 li {
     display: inline;
     margin: 20px;
+}
+
+h1 {
+    position: sticky;
+    top: 50px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }

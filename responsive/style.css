@@ -1,0 +1,27 @@
+@media screen and (max-width:800px) {
+    a {
+        text-decoration: none;
+        border: 2px solid purple;
+        color: white;
+        margin: 30px;
+        padding: 20px;
+        font-weight: bolder;
+        background-color: purple;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    a {
+        text-decoration: none;
+        border: 2px solid purple;
+        color: white;
+        padding: 40px;
+        margin: 30px;
+        font-weight: bolder;
+        background-color: purple;
+
+    }
+}
+
+/* (min-width: 400px) and (max-width: 600px) */
